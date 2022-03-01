@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Form } from 'react-bootstrap'
-import { questionGeek } from '../helpers/Questionario';
+//import { questionGeek } from '../helpers/Questionario';
 import { StyledQuestion, StyledBar, FormStyle, ButtonStyle, Answer, Results } from '../styles/CardQuestion'
 import { Link } from 'react-router-dom';
 import { Image, ProgressBar } from 'react-bootstrap'
@@ -24,6 +24,7 @@ export default class Question extends Component {
     }
 
     componentDidMount() {
+        const questionGeek = 'https://proyecto-sprint2.herokuapp.com/question'
         const currentQuizData = questionGeek[this.state.numberQuestion]
         this.setState({
             question: {
