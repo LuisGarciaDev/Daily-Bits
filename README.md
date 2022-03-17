@@ -1,7 +1,7 @@
 💎 App de Daily Bits
 
 
-Pon a prueba tus conocimientos de html, css, javascript y obten el mejor puntaje
+Pon a prueba tus conocimientos de html, css, javascript y obten el mejor puntaje. Ingresa a este Link https://marzo3-fe0eb.web.app/
 
 
 
